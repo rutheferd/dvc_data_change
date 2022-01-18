@@ -1,10 +1,10 @@
 # Repo Testing Plan
 
 # Steps for Execution:
-~~ Assumes that you have model that is trained initially ~~
+_Assumes that you have model that is trained initially_
 1. Add Data to the Repo File
-2. DVC Push -> ~~ Moves the files to Minio ~~
-3. git Push -> ~~ Pushes DVC lock file ~~
+2. DVC Push -> _Moves the files to Minio_
+3. git Push -> _Pushes DVC lock file_
 4. goa trigger
 	- Pull Data From Minio
 	- Re-Train Model
